@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1069360213668",
+    "project_id": "mr-reco",
+    "storage_bucket": "mr-reco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069360213668:android:8422d0e21afff2ca508031",
+        "android_client_info": {
+          "package_name": "com.example.mrreco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069360213668-co0s516gg6im41pk4aaiuovef6fnjur6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYgWYBckYCnQjLBSpry_wENax1aQWY8Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069360213668-co0s516gg6im41pk4aaiuovef6fnjur6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

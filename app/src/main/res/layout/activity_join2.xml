@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basecollor"
+    tools:context=".JoinActivity2">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="6dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardMaxElevation="12dp"
+        app:cardBackgroundColor="@color/basecollor"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_gravity="center"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#092043"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="2dp"
+                app:cardMaxElevation="12dp">
+
+                <LinearLayout
+                    android:id="@+id/wlcomegreet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:text="Welcome"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="7dp"
+                        android:text=" Please enter your details! "
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="25dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:text="Email"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textStyle="normal" />-->
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/registeremail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:hint="Enter your email"
+                        android:minHeight="48dp"
+                        android:textSize="18sp" />
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="25dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:text="Name"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textStyle="normal" />-->
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/registername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:hint="Enter your Name"
+                        android:minHeight="48dp"
+                        android:textSize="18sp" />
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="25dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:text="Password"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textStyle="normal" />-->
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/registerpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:hint="Enter your password"
+                        android:minHeight="48dp"
+                        android:textSize="18sp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/registerconfirmpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:hint="Confirm password"
+                        android:minHeight="48dp"
+                        android:textSize="18sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnjoin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/design_default_color_primary"
+                        android:text="Create account"
+                        android:textColor="#8C9EFF"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="or"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnjoinwithgoogle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/design_default_color_primary"
+                        android:text="Continue with google"
+                        android:textColor="#8C9EFF"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
